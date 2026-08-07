@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #0b0910;
+  --color-bg-elevated: #161220;
+  --color-bg-elevated-2: #1e1829;
+  --color-fg: #f5f1ea;
+  --color-fg-muted: #b9b0c4;
+  --color-border: rgba(255, 255, 255, 0.09);
+
+  --color-neon: #ff2f92;
+  --color-neon-soft: rgba(255, 47, 146, 0.16);
+  --color-neon-glow: rgba(255, 47, 146, 0.45);
+
+  --color-gold: #d4af6a;
+  --color-gold-soft: rgba(212, 175, 106, 0.16);
+
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-inter);
+}
+
+@theme inline {
+  --color-background: var(--color-bg);
+  --color-foreground: var(--color-fg);
+  --color-bg-elevated: var(--color-bg-elevated);
+  --color-bg-elevated-2: var(--color-bg-elevated-2);
+  --color-fg-muted: var(--color-fg-muted);
+  --color-border: var(--color-border);
+  --color-neon: var(--color-neon);
+  --color-neon-soft: var(--color-neon-soft);
+  --color-gold: var(--color-gold);
+  --color-gold-soft: var(--color-gold-soft);
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-serif);
+}
+
+::selection {
+  background: var(--color-neon-soft);
+  color: var(--color-fg);
+}
+
+.neon-text {
+  color: var(--color-neon);
+  text-shadow: 0 0 18px var(--color-neon-glow);
+}
+
+.gold-text {
+  color: var(--color-gold);
+}
+
+.card-elevated {
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+}
+
+.btn-neon {
+  background: linear-gradient(135deg, var(--color-neon), #b4207a);
+  color: #fff;
+  box-shadow: 0 0 24px var(--color-neon-glow);
+}
+
+.btn-neon:hover {
+  box-shadow: 0 0 32px var(--color-neon-glow);
+}
+
+.divider-gold {
+  background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+  height: 1px;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out both;
+}
