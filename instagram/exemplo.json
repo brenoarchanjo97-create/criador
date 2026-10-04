@@ -1,0 +1,17 @@
+{"categoria": "Eleições 2026", "data": "Sexta-feira, 2 de outubro de 2026",
+ "titulo": "Campanha de Lula recebe R$ 77,3 milhões antes do 1º turno",
+ "resumo": "R$ 75 milhões vieram do Fundo Eleitoral, via PT. A campanha de Flávio recebeu R$ 61,7 milhões, a maior parte do PL, segundo o DivulgaCand do TSE.",
+ "destaque": {"valor": "R$ 77,3 mi", "rotulo": "arrecadados pela campanha de Lula até 1º/10"},
+ "fonte": "Poder360 / TSE", "perfil": "@despertarnews",
+ "explicacao": [
+  {"titulo": "O que é o Fundo Eleitoral?",
+   "texto": ["É o Fundo Especial de Financiamento de Campanha, dinheiro público reservado no Orçamento para pagar as campanhas.",
+             "O TSE divide o valor entre os partidos, e cada partido decide quanto repassa a cada candidato."]},
+  {"titulo": "Quanto cada campanha recebeu",
+   "texto": ["Lula: R$ 77,3 milhões, sendo R$ 75 milhões do Fundo Eleitoral repassados pelo PT.",
+             "Flávio: R$ 61,7 milhões, sendo R$ 55,2 milhões do PL e R$ 4,5 milhões de pessoas físicas.",
+             "Valores declarados até 1º de outubro."]},
+  {"titulo": "Como conferir os números",
+   "texto": ["Qualquer pessoa pode consultar receitas e despesas de cada candidato no DivulgaCand, o site de contas eleitorais do TSE.",
+             "Os valores mudam conforme as campanhas prestam contas. O 1º turno é neste domingo, 4 de outubro."]}
+ ]}
